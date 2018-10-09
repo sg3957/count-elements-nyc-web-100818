@@ -5,7 +5,7 @@ def count_elements(array)
     if new_hash.include?(key)
       value += 1 
     else
-      new_hash[:key] => 1 
+      new_hash[:key] = 1 
     end
   end
   new_hash

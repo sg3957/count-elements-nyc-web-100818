@@ -3,7 +3,7 @@ def count_elements(array)
   new_hash = {}
   array.each do |key, value|
     if new_hash.include?(key)
-      value += 1 
+      new_hash[key].value += 1 
     else
       new_hash[key] = 1 
     end
